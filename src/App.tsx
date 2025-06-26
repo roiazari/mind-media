@@ -141,11 +141,19 @@ function App() {
             {/* Video 1 */}
             <div className="bg-gray-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
               <div className="aspect-video bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center relative group cursor-pointer">
-                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors"></div>
-                <Play className="h-16 w-16 text-white/80 group-hover:text-white group-hover:scale-110 transition-all" />
-                <div className="absolute bottom-4 left-4 text-white">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/Czg_9C7gw0o?si=GF66RH77aG0tTogY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+                <div className="relative w-full max-w-3xl mx-auto" style={{ paddingTop: '56.25%' }}>
+                  <iframe
+                    className="absolute top-0 left-0 w-full h-full rounded-lg"
+                    src="https://www.youtube.com/embed/Czg_9C7gw0o?si=GF66RH77aG0tTogY"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                  ></iframe>
                 </div>
+
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">"Is Social Media Hurting Your Mental Health?"   by Bailey Parnell</h3>
@@ -159,11 +167,19 @@ function App() {
             {/* Video 2 */}
             <div className="bg-gray-50 rounded-xl overflow-hidden shadow-lg hover:shadow-xl transition-shadow">
               <div className="aspect-video bg-gradient-to-br from-gray-800 to-gray-900 flex items-center justify-center relative group cursor-pointer">
-                <div className="absolute inset-0 bg-black/20 group-hover:bg-black/30 transition-colors"></div>
-                <Play className="h-16 w-16 text-white/80 group-hover:text-white group-hover:scale-110 transition-all" />
-                <div className="absolute bottom-4 left-4 text-white">
-                  <iframe width="560" height="315" src="https://www.youtube.com/embed/CxCsk-rvfTQ?si=gy7eNL4XNibwNcNY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <div className="relative w-full max-w-3xl mx-auto" style={{ paddingTop: '56.25%' }}>
+                  <iframe
+                    className="absolute top-0 left-0 w-full h-full rounded-lg"
+                    src="https://www.youtube.com/embed/CxCsk-rvfTQ?si=gy7eNL4XNibwNcNY"
+                    title="YouTube video player"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerPolicy="strict-origin-when-cross-origin"
+                    allowFullScreen
+                  ></iframe>
                 </div>
+
+
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 mb-2">"Social media isn’t bad,  you’re just using it wrong" by Eva Amin</h3>
